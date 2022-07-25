@@ -2,7 +2,7 @@ import { BsLinkedin, BsGithub, BsFacebook } from "react-icons/bs";
 
 const HeaderSocials = () => {
   return (
-    <div className="header__social">
+    <div className="header__socials">
       <a href="#linkedin" target="_blank">
         <BsLinkedin />
       </a>
