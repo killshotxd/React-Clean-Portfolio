@@ -8,6 +8,7 @@ import { useState } from "react";
 
 const Nav = () => {
   const [activeNow, setActiveNow] = useState("#");
+  const [showNav, setShowNav] = useState(true);
 
   return (
     <nav>
